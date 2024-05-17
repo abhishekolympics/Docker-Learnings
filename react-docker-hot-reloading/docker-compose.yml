@@ -1,0 +1,13 @@
+services:
+  react-app:
+    container_name: react-app-container
+    image: react-app-image
+    build:
+      context: .
+      dockerfile: Dockerfile
+    stdin_open: true
+    ports:
+      - "3000:3000"
+    volumes:
+      - .:/hot-reloading
+    command: npm run start-watch

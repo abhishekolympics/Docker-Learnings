@@ -7,7 +7,10 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Abhishek was here.
+          Abhishek was here. 
+          <br />
+          <br />
+          Hot reloading is working here.
         </p>
       </header>
     </div>
