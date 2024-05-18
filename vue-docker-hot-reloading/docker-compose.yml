@@ -1,0 +1,13 @@
+version: '3'
+services:
+  vueapp:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - .:/app
+      - /app/node_modules
+    environment:
+      - WATCHPACK_POLLING=true
+    ports:
+      - "8080:8080"
