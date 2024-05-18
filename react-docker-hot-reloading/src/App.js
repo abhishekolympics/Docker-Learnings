@@ -11,6 +11,8 @@ function App() {
           <br />
           <br />
           Hot reloading is working here.
+          <br />
+          Well hello there.
         </p>
       </header>
     </div>

@@ -2,7 +2,7 @@ FROM node:18-slim
 
 WORKDIR /hot-reloading
 
-COPY package.json .
+COPY package*.json .
 
 RUN npm i
 

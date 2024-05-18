@@ -10,4 +10,5 @@ services:
       - "3000:3000"
     volumes:
       - .:/hot-reloading
+      - /hot-reloading/node_modules
     command: npm run start-watch
